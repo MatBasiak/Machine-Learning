@@ -1,3 +1,3 @@
-function out = mse(x,y)
-  out = mean((x-y).^2)
+function out = mse(y, y_hat)
+  out = mean((y - y_hat).^2);
 end
