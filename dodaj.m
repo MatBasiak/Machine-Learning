@@ -1,3 +1,3 @@
-function wartosc = dodaj(a, b)
-  wartosc = a+b;
- end
+function out = dodaj(a,b)
+  out = a + b;
+end
